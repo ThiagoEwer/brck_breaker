@@ -1,4 +1,5 @@
 # Brck Breaker
+![vid](https://github.com/ThiagoEwer/brck_breaker/assets/99489338/e708e968-aaa8-4a11-8616-d58937276b24)
 
 ## Sobre o Projeto
 
