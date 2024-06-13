@@ -1,16 +1,25 @@
-# myapp
+# Brck Breaker
 
-A new Flutter project.
+## Sobre o Projeto
 
-## Getting Started
+Brck Breaker é um projeto de estudo desenvolvido durante minhas férias. é um jogo inspirado em um dos clássicos dos videogames dos anos 70, Breakout, de Steve Wozniak contém um jogo simples de quebrar blocos, construído usando o framework Flutter. 
+O principal objetivo deste projeto é foi experimentar o poder forçar o IDX 
 
-This project is a starting point for a Flutter application.
+## Instalação & Execução
 
-A few resources to get you started if this is your first Flutter project:
+1. Clone o repositório:
+   git clone https://github.com/ThiagoEwer/brck_breaker.git
+2. Navegue até o diretório do projeto:
+   cd brck_breaker
+3. Execute o comando `flutter pub get` para instalar as dependências do Flutter:
+   flutter pub get
+4. Execute o comando `flutter run` para executar o jogo:
+   flutter run
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Estrutura do Projeto
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+android/ - Código específico para Android.
+lib/ - Código principal do aplicativo em Flutter.
+web/ - Código específico para a versão web.
+.vscode/ - Configurações do Visual Studio Code.
+pubspec.yaml - Arquivo de configuração do Dart e Flutter.

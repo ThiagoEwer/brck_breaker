@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:flame/collisions.dart';                         // Add this import
+import 'package:flame/collisions.dart';                         
 import 'package:flame/components.dart';
 import 'package:flutter/material.dart';
 
@@ -10,7 +10,7 @@ class PlayArea extends RectangleComponent with HasGameReference<BrickBreaker> {
   PlayArea()
       : super(
           paint: Paint()..color = Color.fromARGB(255, 31, 30, 27),
-          children: [RectangleHitbox()],                        // Add this parameter
+          children: [RectangleHitbox()],                        
         );
 
   @override
